@@ -323,18 +323,15 @@
 
       
         
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
+          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/08/07/hello-world/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -462,13 +459,15 @@
 
       
         
-          
-            <h2 id="公司19周年庆"><a href="#公司19周年庆" class="headerlink" title="公司19周年庆"></a>公司19周年庆</h2><p>自己有幸能赶上公司的19周年庆活动的聚餐，在约好的时间地点订了包场，十几桌的人真是热闹。面对一桌的“佳肴”，还是如此镇定的选择了拿出手机寻找可用的wifi，大家寻找wifi可能是为了使用，而我不一样，每次到一个新的场合我就会拿出移动设备想方设法的去做一次安全性的测试，这在行业里称为“安全审计/渗透测试”。</p>
-<h5 id="获取加密WIF"><a href="#获取加密WIF" class="headerlink" title="获取加密WIF"></a>获取加密WIF</h5><p>如今互联网时代处处便利着人们，便利的同时也存在了一些安全隐患。这项工作并不很复杂，反而很简单，“WIFI万能钥匙”大家也听说过，也许你们的手机中就已经有它。这里介绍一些我知道的方法：<br>1、专业：使用审计工具（这里不介绍细节）发布广播包注入攻击，将合法客户端“踢出”同时将获取握手包，提取握手包使用字典进行暴力跑包。<br>2、专业：使用审计工具发布广播注入攻击，干掉对方的路由，使用技术手段仿制出路由的web界面，等待用户的管理访问，此时只是时间问题，不出意外就能获取对方的管理账户。<br>3、简单：wifi万能钥匙，我个人认为，wifi万能钥匙并不是一个破解工具，它其实是在用户使用它连接wifi时进行了云存储分享功能。当其他用户遇到此wifi时，会进行云数据验证，从而达到了破解。（如有不对，请指正^_^）,虽然可以得到网络，但我们想要得到明文密码，还得需要一番周折，在没有wifi分享的时候，我曾经用过使用手机在带的“系统备份”功能，在备份的时候可以选择只备份wifi，完成后在手机内找到备份文件，将其后缀修改为.html打开即可看到明文，这是在手机没有root的时候。<br>如今有了二维码变得特别的方便，当wifi万能钥匙成功连接后，使用手机的分享功能，扫描出现的二维码，即可获取明文密码。<br>我们打开wifi详情，可了解到网关的地址。</p>
-<h5 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h5><p>这次比较幸运，在试了弱密无果后，决定使用wifi密码作为管理码登录，结果让我很意外，像是中了六合彩的兴奋。进入后，我观察了一圈，没有动任何配置，仅仅只是看看。<br>从运行时间和来看，仅仅是运行了一天20小时，这说明这是临时搭建的设备。这是一台二级路由。<br><img src="https://i.loli.net/2018/07/19/5b50a9830baf6.jpg" alt="1.jpg" title="1.jpg"><br><img src="https://i.loli.net/2018/07/19/5b50a9833707c.jpg" alt="4.jpg" title="4.jpg"><br><img src="https://i.loli.net/2018/07/19/5b50a98336e9b.jpg" alt="2.jpg" title="2.jpg"><br><img src="https://i.loli.net/2018/07/19/5b50a9834e44e.jpg" alt="3.jpg" title="3.jpg"></p>
-<h2 id="预防"><a href="#预防" class="headerlink" title="预防"></a>预防</h2><p>1、不要使用万能钥匙去连接重要的网络。<br>2、如果是家用可以使用SSID隐藏<br>3、更改管理地址<br>4、设置：大小写字母+字符+数字，的管理密码。不要使用弱密及wifi相同的密码。<br>5、指定登录权限机。</p>
-
-          
+          <h2 id="公司19周年庆"><a href="#公司19周年庆" class="headerlink" title="公司19周年庆"></a>公司19周年庆</h2><p>自己有幸能赶上公司的19周年庆活动的聚餐，在约好的时间地点订了包场，十几桌的人真是热闹。面对一桌的“佳肴”，还是如此镇定的选择了拿出手机寻找可用的wifi，大家寻找wifi可能是为了使用，而我不一样，每次到一个新的场合我就会拿出移动设备想方设法的去做一次安全性的测试，这在行业里称为“安全审计/渗透测试”。</p>
+<h5 id="获取加密WIF"><a href="#获取加密WIF" class="headerlink" title="获取加密WIF"></a>获取加密WIF</h5>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/19/openpassword/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -596,18 +595,15 @@
 
       
         
-          
-            <h2 id="–主题–"><a href="#–主题–" class="headerlink" title="–主题–"></a>–主题–</h2><p>查阅资料的同时得知了“next”的存在，它的效果让我对它产生了无比的好感。于是我决定，放弃了系统自带的themes走向NEXT。</p>
-<h2 id="–更换如此简单–"><a href="#–更换如此简单–" class="headerlink" title="–更换如此简单–"></a>–更换如此简单–</h2><p>阅读官方文档之后，开始着手。</p>
-<h5 id="1、删除themes"><a href="#1、删除themes" class="headerlink" title="1、删除themes"></a>1、删除themes</h5><p>进入本地项目文件中，直接删除themes文件夹。</p>
-<h5 id="2、安装next"><a href="#2、安装next" class="headerlink" title="2、安装next"></a>2、安装next</h5><p>在git bash中进入项目的根目录下，执行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></p>
-<p>克隆新版，后续可使用 git pull来快速更新。</p>
-<h5 id="3、启用theme"><a href="#3、启用theme" class="headerlink" title="3、启用theme"></a>3、启用theme</h5><p>在“站点配置文件”中找到，theme，将其值修改为next.</p>
-<h5 id="4、清除缓存"><a href="#4、清除缓存" class="headerlink" title="4、清除缓存"></a>4、清除缓存</h5><p>在验证及部署之前，使用 hexo clean 清除缓存</p>
-<h5 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h5><p>验证操作此处省略，请参阅官方文档。</p>
-<h5 id="5、部署"><a href="#5、部署" class="headerlink" title="5、部署"></a>5、部署</h5><p>上述流程完毕后，我们开始部署我们的新theme，执行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></p>
-
-          
+          <h2 id="–主题–"><a href="#–主题–" class="headerlink" title="–主题–"></a>–主题–</h2><p>查阅资料的同时得知了“next”的存在，它的效果让我对它产生了无比的好感。于是我决定，放弃了系统自带的themes走向NEXT。</p>
+<h2 id="–更换如此简单–"><a href="#–更换如此简单–" class="headerlink" title="–更换如此简单–"></a>–更换如此简单–</h2><p>阅读官方文档之后，开始着手。<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/15/to-next-theme/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -866,14 +862,15 @@
 
       
         
-          
-            <h3 id="健步走能给大家带来哪些好处？"><a href="#健步走能给大家带来哪些好处？" class="headerlink" title="健步走能给大家带来哪些好处？"></a>健步走能给大家带来哪些好处？</h3><p>健步走是一项以促进身心健康为目的、讲究姿势、速度和时间的一项步行运动，它行走的速度和运动量介于散步和竞走之间。</p>
-<p>健步走的健身作用主要体现在：</p>
-<p>提高心肺功能和耐力——突出地表现在降低安静时和同等负荷下运动时的心率，以及提高肺活量，可以降低心血管疾病和心脏突发事件的危险性，如果发生心脏突发事件也可降低其严重性；<br>改变血液质量——增加全血容量、降低血液的粘稠度，增加红细胞携带氧气的能力、增加组织器官的血流量，有效防止动脉的发生和发展，也能防止如脑血栓、心肌梗塞这些并发症的发生；<br>调节血管机能——健步走可以增加毛细血管数量、改善末梢循环、降低安静时高血压、改善冠状动脉循环，降低动脉粥样硬化的危险因素；<br>减肥——坚持健步走锻炼能明显减少身体脂肪重量，减少体脂百分比，增加和维持肌肉重量、耐力和力量；<br>促进骨关节健康——可以增加骨密度、骨和关节力量，增加韧带、肌腱的力量，防止多种骨、关节、肌肉、肌腱的损伤，降低骨质疏松发生的危险性；<br>增加人体免疫能力——提高抗病能力，加快病后康复速度；<br>改善心理状态——健步走可以减小精神压力、增加自信心、增加自我控制能力；<br>改善睡眠质量——可以缓解精神压力，使兴奋灶转移，促进睡眠。</p>
-<p>作为你、我、她（他）更多的是挑战自己，锻炼自己……</p>
-<h3 id="健身之余还有收获"><a href="#健身之余还有收获" class="headerlink" title="健身之余还有收获^_^"></a>健身之余还有收获^_^</h3><p>健步走活动的举办不仅让身体体质变好了，也收获了额外的奖品。我的是充电宝，你们的呢？<br><img src="https://i.loli.net/2018/07/14/5b49ce7148d31.jpg" alt="1.jpg" title="1.jpg"></p>
-
-          
+          <h3 id="健步走能给大家带来哪些好处？"><a href="#健步走能给大家带来哪些好处？" class="headerlink" title="健步走能给大家带来哪些好处？"></a>健步走能给大家带来哪些好处？</h3><p>健步走是一项以促进身心健康为目的、讲究姿势、速度和时间的一项步行运动，它行走的速度和运动量介于散步和竞走之间。</p>
+<p>健步走的健身作用主要体现在：<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/10/happy/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
