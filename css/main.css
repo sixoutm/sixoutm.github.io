@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffd07f;
+  background: #ff14ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2908,7 +2908,7 @@ hr {
   height: 376px;
   background-image: url("https://i.loli.net/2018/08/08/5b6a6590a17c4.jpg");
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .header-inner {
