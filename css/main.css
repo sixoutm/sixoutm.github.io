@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5bfffc;
+  background: #189169;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2954,4 +2954,25 @@ hr {
   font-family: 'Roboto Slab', 'Roboto Slab', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
+}
+.post-button {
+  margin-top: 40px;
+}
+.text-center {
+  text-align: center;
+}
+.post-button a {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #fff;
+  background: #222;
+  border: 2px solid #222;
+  text-decoration: none;
+  border-radius: 0;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  line-height: 2;
 }
